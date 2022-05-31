@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link href="./style.css" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <!-- Rating state start -->
+
+
+  
+  <main class="wrapper">
+    <div class="star"></div>
+    <section>
+      <header class="header">
+        <h1>How did we do?</h1>
+      </header>
+
+        <p class="parag">Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!</p>
+    </section>
+    <div class="rating-wrapper">
+      <ul class="ratings">
+        <li class="rating"><button class="rating-btn" data-value="1">1</button></li>
+        <li class="rating"><button class="rating-btn" data-value="2">2</button></li>
+        <li class="rating"><button class="rating-btn" data-value="3">3</button></li>
+        <li class="rating"><button class="rating-btn" data-value="4">4</button></li>
+        <li class="rating"><button class="rating-btn" data-value="5">5</button></li>
+      </ul>
+    </div>
+  <div class="submit"><button class="submit-btn" type="submit">Submit</button></div>
+  <div class="error">You have to click on rating!</div>
+</main>
+
+  <!-- Rating state end -->
+
+  <!-- Thank you state start -->
+<div class="thank-wrapper inactive">
+  <div class="thank-img"></div>
+  <div class="thank-selection">You selected <span class="number-selection"></span> out of 5</div>
+  <section class="thank-section">
+    <h1>Thank you!</h1>
+
+    <p>We appreciate you taking the time to give a rating. If you ever need more support, 
+    don’t hesitate to get in touch!</p>
+  </section>
+  <!-- Thank you state end -->
+</div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">k-stopczynska</a>.
+  </div>
+  <script src="./app.js" type="text/javascript"></script>
+</body>
+</html>
