@@ -20,7 +20,7 @@ function submitRating(e) {
        wrapper.style.display = 'none';
     } else {
         e.preventDefault;
-    error.style.display = 'flex';
+    error.style.visibility = 'visible';
 }};
 
 //event listeners
